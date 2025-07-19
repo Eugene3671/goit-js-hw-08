@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  max-width: 1228px;
+}
+.gallery-image {
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover,
+.gallery-image:focus {
+  transform: scale(1.044);
+}
